@@ -22,28 +22,27 @@ $(document).ready(function(){
           0:{
               items:1,
           },
-          600:{
-              items:1,
+          767:{
+              items:2,
           },
           992:{
-              items:2,
+              items:3,
               
           }
       }
   })
 
    $('.porject_single_item_area').owlCarousel({
-    animateOut: 'slideOutDown',
-    animateIn: 'flipInX',
-    items:1,
-    loop:true,
-    nav:true,
-    dots:false,
-    margin:30,
-    stagePadding:30,
-    smartSpeed:450,
-    autoplay:true,
-});
+      loop:true,
+      margin:20,
+      // autoplay:true,
+      responsiveClass:true,
+      nav:true,
+      dots:false,
+      items:1,
+      navText : ["<i class='fa fa-caret-left'></i>","<i class='fa fa-caret-right'></i>"]
+  })
+
 
 
 });
