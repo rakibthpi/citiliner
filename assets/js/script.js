@@ -32,18 +32,6 @@ $(document).ready(function(){
       }
   })
 
-   $('.porject_single_item_area').owlCarousel({
-      loop:true,
-      margin:20,
-      // autoplay:true,
-      responsiveClass:true,
-      nav:true,
-      dots:false,
-      items:1,
-      navText : ["<i class='fa fa-caret-left'></i>","<i class='fa fa-caret-right'></i>"]
-  })
-
-
 
 });
 
