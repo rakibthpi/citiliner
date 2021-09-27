@@ -493,7 +493,9 @@ h1{
 .slide {
   padding: 23px;
 }
-
+.h-100.shadow-pop {
+  background: rgb(132, 107, 71) !important;
+}
 
 
 .project_main_single_item_images img{
