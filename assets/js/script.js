@@ -1,4 +1,11 @@
 $(document).ready(function(){
+
+    $('.example-animation').DrSlider({
+      showNavigation: false,
+      height: 1100  //slide height
+    }); //Yes! that's it!
+
+
   $('.nav-button').click(function(){
     $('body').toggleClass('nav-open');
   });
@@ -10,6 +17,8 @@ $(document).ready(function(){
 
     return false;
   });
+
+
 
    $('.blogpost_slider_area').owlCarousel({
       loop:true,
@@ -31,6 +40,8 @@ $(document).ready(function(){
           }
       }
   })
+
+
 
 
 });
